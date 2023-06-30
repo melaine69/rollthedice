@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url("./img/body.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    font-weight: 300;
+    height: 100vh;
+    color: #555;
+}
+
+
+.wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+
+.player-0,
+.player-1 {
+    width: 50%;
+    height: 600px;
+    padding: 100px;
+}
+
+.player-title {
+    text-align: center;
+    position: relative;
+}
+
+#score-0,
+#score-1 {
+    text-align: center;
+    margin-bottom: 200px;
+    font-size: 50px;
+}
+
+  /* the little red dot represents the current player */
+.current-player .player-title::after {
+    content: ".";
+    font-size: 100px;
+    position: absolute;
+    color: #EB4D4D;
+    bottom: 4px;
+    right: 10px;
+}
+
+.current-score {
+    text-align: center;
+    background-color: tomato;
+    color: white;
+    width: 150px;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+.icon {
+    width: 20px;
+    margin: 5px;
+}
+
+
+.btn-new {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 45px;
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-roll {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 430px;
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-hold {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 480px;
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.dice-img {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 180px;
+    position: absolute;
+    height: 100px;
+    
+}

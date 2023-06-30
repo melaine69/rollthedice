@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Leckerli+One&family=Playfair:wght@300;400&family=Shantell+Sans:wght@300&family=Tapestry&display=swap"
+    rel="stylesheet"> <!--LATO FONT-->
+    <link href="style.css" rel="stylesheet">
+    <title> ROLL THE DICE GAME </title>
+</head>
+
+<body>
+ 
+<!-- PLAYER ONE LEFT -->
+        <div class="wrapper">
+
+            <div class="player-0 current-player">
+                <h1 class="player-title">PLAYER 1</h1>
+                <p id="score-0"></p>
+
+            <div class="current-score">
+                <h2>Current</h2>
+                <p id="current-0"></p>
+            </div>
+        </div>
+
+<!--PLAYER TWO RIGHT-->
+        <div class="player-1 current-player">
+            <h1 class="player-title">PLAYER 2</h1>
+            <p id="score-1"></p>
+
+            <div class="current-score">
+                <h2>Current</h2>
+                <p id="current-1"></p>
+            </div>
+        </div>
+    </div>
+    <!--MIDDLE SCREEN ELEMENTS-->
+        <!--BTN TOP-->
+        <button class="btn-new"><img src="./img/add.png" class="icon"/>NEW GAME</button>
+
+        <!--BTN BOTTOM-->
+        <button class="btn-roll"><img src="./img/roll.svg" class="icon"/>ROLL DICE</button>
+        <button class="btn-hold"><img src="./img/hold.png" class="icon"/>HOLD</button>
+
+        <!--IMG CHANGE DYNAMICALLY WITH JS -->
+        <img src="img/dice-5.png" alt="dice" class="dice-img">
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
